@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*,.row{
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+.navbar-brand img{
+    width: 70px;
+    height: 70px;
+    /* border-radius: 50px; */
+}
