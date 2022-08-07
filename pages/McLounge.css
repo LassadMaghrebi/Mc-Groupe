@@ -12,3 +12,136 @@ html {
     height: 70px;
     /* border-radius: 50px; */
 }
+@font-face {
+    font-family: 'nautilus_pompiliusregular';
+    src: url('../assets/nautilus-webfont.woff2') format('woff2'),
+         url('../assets/nautilus-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  .banner{
+      background:url(../assets/banner.jpg) no-repeat center top;
+      background-attachment:fixed;
+      background-size:cover;
+      height:100vh;
+      min-height:100%;
+  }
+  
+  .block-title{
+      font-size:52px;
+    font-family: 'nautilus_pompiliusregular';
+      font-weight: bold;
+    letter-spacing: 5px;
+    color: #e75b1e;
+  }
+  .banner .container, .banner .banner-static, .banner .col-lg-12 {
+    height: 100%;
+}
+.banner-text {
+    display: table;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner-cell {
+    display: table-cell;
+    vertical-align: middle;
+    color: #fff;
+}
+.banner-text h1 {
+  
+	font-family: 'nautilus_pompiliusregular';
+    letter-spacing: 2.7px;
+    position: relative;
+    display: inline-block;
+	font-size: 74px;
+    line-height: 100px;
+	color:#fff;
+	padding-bottom: 0px;
+	padding-top:100px;
+}
+
+.banner-text h2 {
+  
+	font-family: 'nautilus_pompiliusregular';
+    letter-spacing: 2.7px;
+    position: relative;
+	font-size: 37px;
+    line-height: 100px;
+	padding-bottom:25px;
+}
+.banner-text p{
+	font-family: 'Roboto', sans-serif;
+	font-size:18px;
+	color:#ccc;
+	padding-bottom:35px;
+	margin:0px;
+}
+.banner-cell .mouse {
+    position: relative;
+    width: calc(16px * 2);
+    height: calc(31px * 2);
+    margin: 60px auto 20px;
+    background: none;
+    border: 2px solid white;
+    border-radius: calc(16px * 2);
+    z-index: 1;
+  }
+  .banner-cell .mouse:after {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    width: calc(4px * 2);
+    height: calc(4px * 2);
+    background: none;
+    border: 2px solid white;
+    border-radius: 100%;
+    -webkit-animation-name: scrollWheel;
+            animation-name: scrollWheel;
+    -webkit-animation-duration: 1.4s;
+            animation-duration: 1.4s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease;
+            animation-timing-function: ease;
+    will-change: transform;
+  }
+  @-webkit-keyframes scrollWheel {
+    from {
+      -webkit-transform: translate(-50%, 0);
+      -webkit-transform: translate3d(-50%, 0, 0);
+      transform: translate(-50%, 0);
+      transform: translate3d(-50%, 0, 0);
+      opacity: 1;
+    }
+    to {
+      -webkit-transform: translate(-50%, 20px);
+      -webkit-transform: translate3d(-50%, 20px, 0);
+      transform: translate(-50%, 20px);
+      transform: translate3d(-50%, 20px, 0);
+      opacity: 0;
+    }
+
+  }
+  
+  @keyframes scrollWheel {
+    from {
+      -webkit-transform: translate(-50%, 0);
+      -webkit-transform: translate3d(-50%, 0, 0);
+      transform: translate(-50%, 0);
+      transform: translate3d(-50%, 0, 0);
+      opacity: 1;
+    }
+    to {
+      -webkit-transform: translate(-50%, 20px);
+      -webkit-transform: translate3d(-50%, 20px, 0);
+      transform: translate(-50%, 20px);
+      transform: translate3d(-50%, 20px, 0);
+      opacity: 0;
+    }
+  }

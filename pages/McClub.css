@@ -362,3 +362,29 @@ button.close span{
     opacity: 1;
 }
 
+
+
+.footer {
+  background: linear-gradient(rgba(51, 33, 29, .9), rgba(51, 33, 29, .9)), url(../assets/newsletter-bg.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section_7 h3{
+	font-size:35px;
+  font-family: 'nautilus_pompiliusregular';
+  color: #e75b1e;
+}
+.section_7 p{
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	color:#ffffff;
+}
+.p{
+  font-family: 'nautilus_pompiliusregular';
+}
+.section_3 p{
+  font-size: 1.5rem;
+  font-family: 'nautilus_pompiliusregular';
+}

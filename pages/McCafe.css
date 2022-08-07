@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'nautilus_pompiliusregular';
+  src: url('../assets/nautilus-webfont.woff2') format('woff2'),
+       url('../assets/nautilus-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 .spaceimg{
     position: relative;
     width: 100%;
@@ -38,7 +45,13 @@
     bottom: 15px;
     width: 100%;
 }
-
+.block-title{
+	font-size:52px;
+  font-family: 'nautilus_pompiliusregular';
+	font-weight: bold;
+  letter-spacing: 5px;
+  color: #e75b1e;
+}
 .section_2 .caption {
   text-align: center;
   position: absolute;
@@ -242,3 +255,62 @@ button.close span{
     transform: translate3d(0, -100px, 0);
     opacity: 1;
 }
+
+
+
+
+/* --------------------------------section 2--------------
+@font-face {
+  font-family: 'nautilus_pompiliusregular';
+  src: url('../assets/nautilus-webfont.woff2') format('woff2'),
+       url('../assets/nautilus-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.banner{
+	background:url(../../assets/carousel-1.jpg) no-repeat center top;
+	background-attachment:fixed;
+	background-size:cover;
+	height:100vh;
+	min-height:100%;
+}
+
+.banner-text {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #e75b1e;
+    display: table;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner-text h1 {
+  
+	font-family: 'nautilus_pompiliusregular';
+    letter-spacing: 2.7px;
+    position: relative;
+    display: inline-block;
+	font-size: 74px;
+    line-height: 100px;
+	color:#fff;
+	padding-bottom: 0px;
+	padding-top:100px;
+}
+
+.banner-text h2 {
+  
+	font-family: 'nautilus_pompiliusregular';
+    letter-spacing: 2.7px;
+    position: relative;
+	font-size: 37px;
+    line-height: 100px;
+	padding-bottom:25px;
+}
+.banner-text p{
+	font-family: 'Roboto', sans-serif;
+	font-size:18px;
+	color:#ccc;
+	padding-bottom:35px;
+	margin:0px;
+}
+--------------- */
